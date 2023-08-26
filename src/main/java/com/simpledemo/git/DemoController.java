@@ -11,5 +11,10 @@ public class DemoController {
 	public String sayHello() {
 		return "Hello Students!";
 	}
+	
+	@RequestMapping("/sayBye")
+	public String sayBye() {
+		return "Good Day Students!";
+	}
 
 }
