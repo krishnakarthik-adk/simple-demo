@@ -14,7 +14,7 @@ public class DemoController {
 	
 	@RequestMapping("/sayBye")
 	public String sayBye() {
-		return "Good Day Students!";
+		return "Good Evening Students.";
 	}
 
 }
